@@ -1,0 +1,18 @@
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.card-body:hover {
+    border: 1px solid #777;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card-body {
+    padding: 0;
+}

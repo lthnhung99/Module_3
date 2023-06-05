@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.header-div {
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(33, 30, 30);
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    width: fit-content;
+    display: flex;
+    flex-wrap: nowrap ;
+    flex-direction: row;
+}
+
+.navbar li {
+    padding: 15px 20px;
+}
+.navbar li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.navbar li:last-child{
+
+}
+.navbar a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.navbar li:hover a{
+    color: white;
+}
+
+.left-aside {
+    clear: both;
+}
+
+.main-content {
+    clear: both;
+    display: flex;
+    line-height: 1.5;
+}
+
+.main-content aside {
+    width: 15%;
+    text-align: center;
+    padding-top: 30px;
+    padding-top: 30px;
+    background-color: lightgray;
+}
+
+.main-content .right-aside div{
+    padding: 30px 40px;
+    margin: 20px 15px;
+    background-color: rgb(239, 233, 233);
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 5px;
+}
+
+.main-content section {
+    width: 70%;
+    height: 80vh;
+    padding: 0 15px;
+}
+
+.main-content section article {
+    padding: 30px 0px;
+}
+
+.main-content section h1 {
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
